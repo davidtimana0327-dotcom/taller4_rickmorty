@@ -29,3 +29,5 @@ collection.insert_many(all_characters)
 
 print(f"Datos insertados en MongoDB: {collection.count_documents({})} documentos")
 client.close()
+
+print("Ingesta completada exitosamente.")
